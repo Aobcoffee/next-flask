@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Fetch data from Flask
+
+Navigate to the /server directory
+
+```bash
+python server.py
+```
+
+Next.js will fetch the API from localhost on port:8080 and display response in the port:3000
+
+You can start editing the data by modifying `server/server.py`.
